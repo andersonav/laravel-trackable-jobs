@@ -1,0 +1,36 @@
+{
+    "name": "andersonav/laravel-trackable-jobs",
+    "description": "This package provides a simple UI for the trackable jobs package.",
+    "type": "library",
+    "require": {
+        "php": "^7.4||^8.0",
+        "livewire/livewire": "^2.8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anderson Alves Bezerra",
+            "email": "andersonalves.dev@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^6.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alves\\TrackableJobs\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Alves\\TrackableJobs\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alves\\TrackableJobs\\Providers\\TrackableJobsServiceProvider"
+            ]
+        }
+    }
+}

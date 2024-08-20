@@ -1,0 +1,8 @@
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+.phpunit.result.cache
+.idea
+composer.lock
+package-lock.json
