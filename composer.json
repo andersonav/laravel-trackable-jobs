@@ -3,8 +3,8 @@
     "description": "This package provides a simple UI for the trackable jobs package.",
     "type": "library",
     "require": {
-        "php": "^7.4||^8.0",
-        "livewire/livewire": "^2.8"
+        "php": "^8.0|^8.2|^8.3|^8.4",
+        "livewire/livewire": "^3.6"
     },
     "license": "MIT",
     "authors": [
@@ -14,7 +14,7 @@
         }
     ],
     "require-dev": {
-        "orchestra/testbench": "^6.17"
+        "orchestra/testbench": "^9.3"
     },
     "autoload": {
         "psr-4": {
